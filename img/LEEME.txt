@@ -1,0 +1,5 @@
+Coloca aquí tu logo con el nombre exacto logo.png.
+Ruta esperada: Conciliacion_Bancaria/img/logo.png
+Recomendado: PNG transparente, forma cuadrada o apaisada, buena resolución.
+No cambies el nombre ni la ruta; la aplicación lo cargará automáticamente.
+El logo y el enlace de marca llevan al sitio https://sistemas-majovit.vercel.app/

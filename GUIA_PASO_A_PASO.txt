@@ -1,0 +1,28 @@
+CONCILIACIÓN BANCARIA — GUÍA RÁPIDA
+
+1. Extrae la carpeta completa en tu equipo.
+2. Abre index.html con doble clic en Chrome o Edge.
+3. Completa empresa, cuenta y periodo si corresponde.
+4. Selecciona el extracto bancario y el libro auxiliar, o pulsa “Cargar ejemplo”.
+5. Pulsa “Analizar conciliación”.
+6. Revisa el resumen y el panel visual tipo Power BI: estado de movimientos, conciliación por regla y pendientes por origen.
+7. Usa las pestañas Conciliados, Por revisar y Pendientes para inspeccionar los registros.
+8. “Descargar Excel” genera un archivo CSV que abre Excel. “Descargar PDF” abre el diálogo de impresión del navegador; selecciona “Guardar como PDF”.
+
+FORMATO DE LOS ARCHIVOS
+- Extracto: sin encabezados; columna D = fecha, F = valor con signo, H = descripción.
+- Libro auxiliar: encabezados FECHA, DETALLE, NOMBRE BENEFICIARIO, DÉBITO y CRÉDITO.
+- El valor contable se calcula como DÉBITO menos CRÉDITO.
+
+IMPORTANTE
+- Los archivos se procesan localmente en el navegador.
+- Para leer archivos Excel y visualizar los gráficos se requiere conexión a internet para cargar las librerías. Los CSV se pueden leer sin la librería Excel, pero los gráficos también usan una librería externa.
+- Verifica los soportes de los movimientos antes de registrar ajustes contables.
+
+
+PERSONALIZAR LOGO Y MARCA
+1. Abre la carpeta img dentro de Conciliacion_Bancaria.
+2. Copia tu logo allí y nómbralo exactamente logo.png.
+3. Abre index.html normalmente. El logo aparecerá en la parte superior del menú lateral.
+4. El logo y el enlace del pie de página llevan a https://sistemas-majovit.vercel.app/.
+5. Si todavía no agregas el logo, la aplicación muestra un icono alternativo.
